@@ -1,0 +1,74 @@
+/*
+
+Rule - Selector, Descriptor
+
+*/
+
+/*#header_container { background:#eeeeee; border:0px hidden; height:50px; position:fixed; width:1500px; top:0; margin: auto; display: block;}*/
+#header { line-height:100px; margin:0 0px 0 0px; display:block;  text-align:center;  background-color:yellow; }
+
+li{
+    display : inline;
+}
+
+section {
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+body {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+hr {
+    display: block;
+    margin-top: 0.0em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+}
+
+label {
+    font-size: 1em;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.breathVertical {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+.breathHorizontal {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+div.todoStatusACTIVE {
+    color : blue;
+}
+
+
+div.todoStatusCOMPLETE{
+    color : green;
+    text-decoration : line-through;
+}
+
+div.todoStatusDELETED {
+    color : red;
+    text-decoration : line-through;
+
+}
+
